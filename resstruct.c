@@ -1,3 +1,5 @@
+//This is effectively the same thing as the reservation system from before, only this time we use structures to see if the party cacn be reasonably seated.
+
 #include <string.h>
 #include <stdio.h>
 #define SIZE 10

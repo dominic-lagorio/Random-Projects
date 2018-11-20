@@ -1,3 +1,7 @@
+/*This file plays a game with the user that asks them ten multiplication questions, and then returns to them the
+ *percentage of correct answers they attained.
+ *It generates the numbers by using the built in rand funciton.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

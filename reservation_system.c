@@ -1,3 +1,5 @@
+//This is a simple user interface that allows the user to make reservations at a restaurant on a given day
+
 #include <string.h>
 #include <stdio.h>
 #define SIZE 10

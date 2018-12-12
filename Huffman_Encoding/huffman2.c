@@ -38,7 +38,7 @@ int main( int argc, char* argv[]){
 //this lil thing counts the occurences while simultaneuously putting them into the heap
     count(fp);
     
-// sets up the huffman tree... I think... well, it's supposed to
+// sets up the huffman tree
     struct tree * l, * r, * combined;
     while (heapcount > 1){
         l = deleteMin();
@@ -133,7 +133,7 @@ struct tree * deleteMin(void){
     heap[heapcount - 1] = NULL;
     while (l(index) < heapcount) {// ask about bounding
         
-        //if the right child exist, then compare the children, then compare the new thing to the smaller child.
+        //if the right child exists, then compare the children, then compare the new thing to the smaller child.
         if (heap[r(index)] != NULL){
             smaller = ( l(index) < r(index) ? l(index): r(index) );
         }
